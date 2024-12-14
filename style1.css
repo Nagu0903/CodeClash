@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+.workout {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.hero-image, .workout-image, .nutrition-image, .about-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Testimonials Section */
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing Table */
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h3 {
+    margin: 0;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-plan button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-plan button:hover {
+    background-color: #555;
+}
+
+/* CTA Section */
+#cta {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#cta button {
+    padding: 15px 30px;
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background-color: #FF4500;
+}
+
+/* Social Links */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1521747116042-5c7eaa335f55') no-repeat center center/cover;
+    background-attachment: fixed;  /* Parallax Effect */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.cta-button {
+    background-color: #FF6347;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FF4500;
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.workout-card:hover {
+    transform: translateY(-10px) scale(1.05); /* Slightly lift and enlarge the workout card */
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+.hero-section h2 {
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
